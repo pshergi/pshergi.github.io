@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='ru'>
+	<head>
+		<meta charset='utf-8'>
+		<link rel='stylesheet' href='styles.css'>
+		<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600'>
+		<title>Скачать картинку из ВК на андроид</title>
+	</head>
+	<body>
+		<div id='main'>
+			<h1>Как скачать картинку из ВК на телефон?</h1>
+			<p>Этот сайт поможет Вам скачать картинки из Вконтакте на телефон. Вы можете ознакомиться с инструкцией для своего браузера ниже или воспользоваться нашим сервисом, который извлечет из поста все картинки и предоставит на отдельной странице, где Вы легко сможете их скачать.</p>
+			<h2>Инструкция:</h2>
+			<p>Выберите Ваш мобильный браузер</p>
+			<details>
+ 				<summary>Google Chrome</summary>
+ 				<p>Инструкция</p>
+			</details>			
+			<div id='input_area'>
+				<p>Введите ссылку на пост, и мы извлечём из него и комментариев все картинки.<br>Это может занять 5-10 секунд</p>
+				<form method='GET' action='/cgi-bin/1.py'>
+					<input type='url' name='url' placeholder='http://vk.com/xxx?w=wall-xxx' id='url_area' required>
+					<button type='submit' class='button' id='submit' formtarget='_blank'>Извлечь картинки</button>
+					<button type='reset' class='button' id='reset'>Очистить</button>
+				</form>
+			</div>
+		</div>
+	</body>

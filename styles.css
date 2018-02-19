@@ -1,7 +1,7 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 17px;
-	background: url(https://ilyakhasanov.ru/images/background/84.png) repeat;
+	background-image: url(https://ilyakhasanov.ru/images/background/84.png);
 }
 
 #main{

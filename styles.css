@@ -9,6 +9,7 @@ body{
 }
 
 div #input_area{
+	background-color: white;
 	font-size: 16px;
 	width: 670px;
 	margin: 0px auto;

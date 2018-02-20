@@ -1,30 +1,36 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 17px;
-	background-image: url('https://html5book.ru/wp-content/uploads/2015/05/background19.png');
+	background: url('https://html5book.ru/wp-content/uploads/2015/05/background19.png');
 }
 
 #main{
-	margin: 0 20%;
+	margin: 40px auto;
+	padding: 5px 30px 15px;
+	width: 80%;
+	background: #fff;
+	border-radius: 7px;
 }
 
 div #input_area{
-	background-color: white;
 	font-size: 17px;
-	width: 80%;
-	margin: 0px auto;
+	width: 100%;
+	margin: 0 auto;
 	text-align: center;
 	padding: 2px 5px 15px;
-	border: 2px solid #bdb9b9;
 	border-radius: 5px;
+	border: 2px solid gray;
 }
 
 #url_area{
-	width: 350px;
+	width: 70%;
 	height: 25px;
-	border-radius: 5px;
+	margin-top: 5px;
+	border-radius: 5.5px;
 	box-shadow: 0px 0px 4px;
 	outline: none;
+	padding: 5px;
+	border: 0;
 }
 
 #url_area:focus, #url_area:hover{
@@ -47,7 +53,7 @@ img{
 .button{
 	position: relative;
 	vertical-align: top;
-	height: 32px;
+	height: 36px;
 	padding: 5px 10px;
 	font-size: 16px;
 	color: white;
@@ -61,6 +67,9 @@ img{
 .button:active{
 	top: 1px;
 	outline: none;
+}
+#submit, #reset{
+	margin-top: 5px;
 }
 
 #submit{

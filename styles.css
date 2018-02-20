@@ -2,6 +2,8 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 17px;
 	background: url('https://html5book.ru/wp-content/uploads/2015/05/background19.png');
+	margin: 0;
+	padding: 0;
 }
 
 #main{
@@ -14,7 +16,6 @@ body{
 
 div #input_area{
 	font-size: 17px;
-	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	padding: 2px 5px 15px;

@@ -1,7 +1,7 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 17px;
-	background: url('https://html5book.ru/wp-content/uploads/2015/05/background19.png');
+	background: url('background_image.jpg') no-repeat fixed;
 	margin: 0;
 	padding: 0;
 }
@@ -10,12 +10,11 @@ body{
 	margin: 40px auto;
 	padding: 5px 30px 15px;
 	width: 80%;
-	background: #fff;
+	background: rgba(255, 255, 255, 0.5);
 	border-radius: 7px;
 }
 
 div #input_area{
-	font-size: 17px;
 	margin: 0 auto;
 	text-align: center;
 	padding: 2px 5px 15px;
@@ -27,7 +26,7 @@ div #input_area{
 	width: 70%;
 	height: 25px;
 	margin-top: 5px;
-	border-radius: 5.5px;
+	border-radius: 5px;
 	box-shadow: 0px 0px 4px;
 	outline: none;
 	padding: 5px;
@@ -41,6 +40,8 @@ div #input_area{
 summary{
 	color: blue;
 	text-decoration: underline;
+	border-top: 2px solid #e0e0e0;
+	border-bottom: 2px solid #e0e0e0;
 }
 
 h1{
